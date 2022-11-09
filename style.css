@@ -16,6 +16,7 @@ body {
 
 header {
   background-color: #191a1b;
+  border: 1px solid transparent; /* fixes whitespace collapsing */
 }
 
 nav {
@@ -33,7 +34,7 @@ nav,
   list-style: none;
   width: 565px;
   justify-content: space-between;
-  margin-left: 264px;
+  margin-left: 270px;
 }
 .nav-links a {
   font-family: 'Montserrat', sans-serif;
@@ -50,6 +51,58 @@ nav,
   display: block;
   margin-left: 150px;
   text-decoration: none;
-  padding: 12px;
+  padding: 15px;
   border: 3px solid #3882f6;
+}
+
+.hero {
+  margin: 38px 150px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 40% 55%;
+  column-gap: 5%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.hero-title {
+  color: #f9faf8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 3px;
+}
+
+.hero-desc {
+  margin-top: 25px;
+  color: #e5e7eb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hero-action {
+  display: block;
+  margin-top: 25px;
+  width: 134px;
+  height: 51px;
+  padding: 15px 20px;
+  background-color: #3882f6;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.hero-img img {
+  width: 95%;
+  height: 276px;
+  border: 2px solid rgba(249, 250, 248, 0.31);
 }
