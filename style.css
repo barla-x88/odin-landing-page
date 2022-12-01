@@ -241,3 +241,45 @@ nav,
 .dots:first-child {
   background-color: #bab8b8;
 }
+
+.cta {
+  margin: 67px 185px;
+  background-color: #1f2937;
+  height: 158px;
+  border: 1px solid transparent; /* fixes border collapsing */
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cta-banner {
+  margin: 52px 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta-banner p:first-child {
+  width: 578px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+
+.cta-banner p:first-child span {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cta-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: 1px solid #f9faf8;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
